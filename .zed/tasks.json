@@ -1,0 +1,13 @@
+[
+  {
+    "label": "dev",
+    "command": "deno run --watch main.ts",
+    "shell": "system",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "hide": "never",
+    "show_summary": true,
+    "show_output": true
+  }
+]
