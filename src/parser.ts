@@ -2,7 +2,7 @@
 // @ts-types="npm:@types/yargs-parser"
 import yargsParser from "yargs-parser";
 
-import {
+import type {
   ArgumentsParserOptions,
   FlagsParserOptions,
   ParsedOutput,
