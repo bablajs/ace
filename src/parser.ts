@@ -1,5 +1,5 @@
 // deno-lint-ignore-file no-explicit-any
-// @ts-types="npm:@types/yargs-parser"
+// @ts-types="npm:@types/yargs-parser@21.0.3"
 import yargsParser from "yargs-parser";
 
 import type {
