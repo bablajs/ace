@@ -10,6 +10,10 @@ import type {
 } from "#types";
 import { yargsConfig } from "#src/yargs_config.ts";
 
+/**
+ * Parses the command line arguments. The flags are parsed
+ * using yargs-parser
+ */
 export class Parser {
   constructor(
     private readonly options: {
