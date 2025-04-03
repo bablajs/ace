@@ -1,4 +1,9 @@
 {
+  "$schema": "https://raw.githubusercontent.com/denoland/deno/main/cli/schemas/config-file.v1.json",
+  "name": "@babla/ace",
+  "version": "0.0.0",
+  "license": "MIT",
+  "exports": "./main.ts",
   "tasks": {
     "dev": "deno run --watch main.ts",
   },
@@ -15,7 +20,8 @@
     "#src/": "./src/",
     "#types": "./src/types.ts",
   },
-  "compilerOptions": {
-    "useDefineForClassFields": true,
+  "publish": {
+    "include": ["LICENSE", "README.md", "src/**/*.ts", "main.ts"],
+    "exclude": ["tests"],
   },
 }
